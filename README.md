@@ -2,7 +2,19 @@
 
 ¡Bienvenido/a a los ejercicios básicos de _Terraform_ para iniciarse en el mundo de DevOps!
 
-Este repositorio contiene una serie de ejercicios diseñados para ayudarte a familiarizarte con Terraform y los conceptos básicos de infraestructura como código. Cada ejercicio se centra en un aspecto específico de Terraform y hay que completarlo de acuerdo a la vía de aprendizaje. ¡No rompas el orden!
+Este repositorio contiene una serie de ejercicios diseñados para ayudarte a familiarizarte con Terraform y los conceptos básicos de infraestructura como código. Cada ejercicio se centra en un aspecto específico de Terraform y hay que completarlo de acuerdo a la vía de aprendizaje. **¡No rompas el orden!**
+
+## ¡Importante!
+
+Es muy importante que sigas el orden de los ejercicios, ya que cada uno de ellos se basa en los conocimientos adquiridos en los anteriores. Si no sigues el orden, es posible que te encuentres con problemas que no puedas resolver.
+
+Ten mucho cuidado con los valores sensibles que puedas exponer en tus soluciones. Es preferible utilizar variables de entorno para trabajar con este tipo de valores.
+
+Si necesitas introducir valores sensibles en un fichero de configuración terraform.tfvars, asegúrate de que este fichero esté en el .gitignore para evitar subirlo al repositorio.
+
+Actualmente cualquier fichero con el nombre `sensitive.auto.tfvars` está en el .gitignore de este repositorio, por lo que puedes utilizarlo para almacenar valores sensibles.
+
+Si creas un fichero de salida en tus ejecuciones del comando `terraform plan -out=...`, asegúrate de que este fichero tenga de nombre `terraform.tfplan` para que no se suba al repositorio.
 
 ## Objetivos
 
